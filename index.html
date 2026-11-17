@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Cabeceras de Seguridad (Hardening HTTP en cliente) -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src 'self'; img-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <title>Mi Web Marcelo Narvaez</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+    
+</head>
+<body>
+    <div class="group">
+        <header>
+           <h2>Marcelo Narvaez</h2>
+           <h1>Bienvenidos a visitar mis habilidades tecnicas</h1>
+
+             <!-- Menú de navegación rápida hacia cada sección -->
+            <nav class="menu">
+                <a href="#programacion">Programación</a>
+                <a href="#redes">Redes TI</a>
+                <a href="#edicion">Edición Video/Fotos</a>
+                <a href="#broadcast">Cámara Broadcast</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- SECCIÓN 1: PROGRAMACIÓN -->
+            <section id="programacion" class="seccion-habilidad">
+                <h2>Programación y Desarrollo</h2>
+                <p>Aplicaciones de escritorio en C# .NET, bases de datos SQL y desarrollo web.</p>
+                <div class="video">
+                    <video width="560" height="315" controls preload="metadata">
+                        <source src="videos/app_SistemaDeGestionDeTuNegocio.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+            </section>
+
+            <!-- SECCIÓN 2: REDES TI -->
+            <section id="redes" class="seccion-habilidad">
+                <h2>Redes TI e Infraestructura</h2>
+                <p>Configuración de redes, direccionamiento IP, VLANs, routing y soporte técnico.</p>
+
+                 <div class="galeria-videos">   
+                    <div class="video-item">
+                        <h4>IP_STATICAPC</h4>
+                        <video controls preload="metadata">
+                            <source src="videos/1-IP_STATICAPC.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+
+                   <div class="video-item">
+                        <h4>2. Configuración de Router 0</h4>
+                        <video controls preload="metadata">
+                        <source src="videos/2-ConfigRouter0.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+
+                    <div class="video-item">
+                        <h4>3-ConfigRouter1</h4>
+                        <video controls preload="metadata">
+                            <source src="videos/3-ConfigRouter1.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+
+                    <div class="video-item">
+                        <h4>4-ConfigRutaEstatica</h4>
+                        <video controls preload="metadata">
+                            <source src="videos/4-ConfigRutaEstatica.mp4" type="video/mp4">
+                            Tu navegador no soporta la reproducción de video.
+                        </video>
+                    </div>
+                </div>
+        </section>
+                 <!-- SECCIÓN 3: EDICIÓN DE VIDEO Y FOTOS -->
+            <section id="edicion" class="seccion-habilidad">
+                <h2>Edición de Video y Fotografía</h2>
+                <p>Edicion de Video, correccion de color y postproducción audiovisual.</p>
+                <div class="video">
+                    <video width="560" height="315" controls preload="metadata">
+                        <source src="videos/Airplane Trailer 2026.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+            </section>
+
+            <!-- SECCIÓN 4: OPERADOR DE CÁMARA BROADCAST -->
+            <section id="broadcast" class="seccion-habilidad">
+                <h2>Operador de Cámara Broadcast</h2>
+                <p>Operador de cámaras HD/4K en transmisiones Deportivas/Eventos en vivo.</p>
+                <div class="video">
+                    <video width="560" height="315" controls preload="metadata">
+                        <source src="videos/demo_broadcast.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
+                </div>
+            </section>
+        </main>
+
+    
+       <footer class="footer">
+           <p>Marcelo Narvaez Web 2026</p>
+           <a href="https://www.linkedin.com/in/marcelonarvaeztapia/" target="_blank" rel="noopener noreferrer">
+                Visitar mi perfil en LinkedIn
+           </a>
+       </footer>
+    </div>
+</body>
+</html>
