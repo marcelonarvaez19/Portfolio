@@ -1,11 +1,14 @@
 
 body {
-    background-image: url(img/fondo3.jpg);
+    background-image: url(img/img_fondo_noviembre.webp);
+    /* El degradado oscuro encima asegura que el texto amarillo y blanco siempre se lea perfecto */
+    /*background-image: linear-gradient(rgba(10, 10, 10, 0.72), rgba(10, 10, 10, 0.82)), url('img/img_fondo_noviembre.webp');*/
     background-position: center center;
     background-repeat: no repeat; 
     background-attachment: fixed;
     background-size:cover;
     background-color: brown;
+    background-color: #0d0d0d; /* Color de respaldo mientras carga */
     color: rgb(235, 179, 28);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
